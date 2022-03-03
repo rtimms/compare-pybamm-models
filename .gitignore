@@ -1,0 +1,50 @@
+*.txt
+*.pdf
+*.tmp
+*.png
+/local/
+*.DS_Store
+*.csv
+
+# don't ignore important .txt and .csv files
+!LICENSE.txt
+!data/*.csv
+!results/*.csv
+
+# running files
+*.pyc
+*.py~
+.~lock*
+*.swp
+
+# Python cache
+*__pycache__/
+*.cache
+*.ipynb_checkpoints/
+
+# Sphinx build files
+build/
+
+# setup.py files
+*.egg-info
+dist/
+
+# simulation outputs
+results/
+matplotlibrc
+
+# virtual enviroment
+env/
+bin/
+etc/
+lib/
+lib64
+share/
+pyvenv.cfg
+.vscode
+
+# downloads
+*.gz
+
+# third party
+third-party
